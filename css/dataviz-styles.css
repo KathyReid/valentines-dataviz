@@ -1,0 +1,52 @@
+
+
+svg .titles {
+  font-size: 180%;
+  font-family: "Abel", sans-serif;
+  font-weight: bold
+}
+
+.axis path, .axis line {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+
+sup, sub {
+line-height: 0;
+}
+
+q:before {
+content: "â€œ";
+}
+
+q:after {
+content: "â€";
+}
+
+blockquote:before {
+position: absolute;
+left: 2em;
+}
+
+blockquote:after {
+position: absolute;
+}
+
+#circle circle {
+fill: none;
+pointer-events: all;
+}
+
+.group path {
+fill-opacity: .5;
+}
+
+path.chord {
+stroke: #000;
+stroke-width: .25px;
+}
+
+#circle:hover path.fade {
+display: none;
+}
